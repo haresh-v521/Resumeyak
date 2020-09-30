@@ -445,15 +445,7 @@ export default {
     },
 
     addMinor(k,i) {
-
-      console.log('minor[index]',this.minor);
-      console.log('minor[k][i]',this.minor[k].length);
-      // for(let j=0; j<=this.minor[k].length; j++){
-      //   if(this.minor[k][j] !=''){
-      //     console.log('in loop');
-      //     this.minor[k].push({ name: "" });
-      //   }
-      // }
+      this.minor[k].push({ name: "" });
     },
     removeMinor(k,i) {
       this.insertData();
