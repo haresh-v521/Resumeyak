@@ -1,0 +1,448 @@
+@media (min-width: 1200px) {
+    .page-start .container {
+        max-width: 1050px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .page-start .start-info {
+        background-repeat: round;
+        padding-left: 70px;
+        padding-right: 20px;
+        padding-top: 45px;
+        height: 400 !important;
+    }
+}
+
+@media (max-width: 767px) {
+    #app {
+        min-height: 450px;
+    }
+    .page-start .start-info {
+        background: url(../../images/bg/bubble-top-mobile.html);
+        background-repeat: round;
+        height: 750px;
+        padding-left: 60px;
+        margin-top: -170px;
+        padding-top: 0px;
+    }
+    .page-start .welcome-title {
+        padding-top: 112px;
+    }
+    .page-start .start-description {
+        max-width: 350px;
+    }
+    .page-start .yak {
+        position: relative;
+        top: 0;
+        margin-bottom: 19px;
+    }
+    .resume-editor-div .col-md-3,
+    .resume-editor-div .col-md-4,
+    .resume-editor-div .col-md-5,
+    .resume-editor-div .col-md-6,
+    .resume-editor-div .col-md-7 {
+        /* flex: 1 0 48%!important;
+        min-width: 100%; */
+    }
+    .vertical-center {
+        position: relative;
+        -ms-transform: translateY(-50%);
+    }
+    .page-resume-editor .sidebar ul li {
+        font-size: 14px;
+        margin-bottom: 5px;
+        display: inline;
+    }
+    .page-resume-editor .sidebar1 ul li {
+        font-size: 14px;
+        margin-bottom: 5px;
+        display: inline;
+    }
+    .page-resume-editor .sidebar ul {
+        text-align: center;
+    }
+    .page-resume-editor .sidebar1 ul {
+        text-align: center;
+    }
+    .page-resume-editor .sidebar ul::after {
+        content: '';
+        border-top: 1px solid gray;
+    }
+    .page-resume-editor .sidebar1 ul::after {
+        content: '';
+        border-top: 1px solid gray;
+    }
+    .contact-form {
+        padding: 30px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 450px) {
+    .page-start .start-info {
+        background-repeat: round;
+        padding-top: 45px;
+        /* min-height: 950px; */
+    }
+
+    .page-start .start-description {
+        max-width: 250px;
+    }
+}
+@media (max-width: 460px) {
+    .page-resume-editor .sidebar ul li {
+        font-size: 12px;
+        margin-bottom: 5px;
+        display: inline;
+    }
+    .page-resume-editor .sidebar1 ul li {
+        font-size: 12px;
+        margin-bottom: 5px;
+        display: inline;
+    }
+    .resume-editor-div h2 {
+        color: #fb643e;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Passion One', cursive;
+        font-size: 25px;
+    }
+    .resume-editor-div, .resume-editor-div select {
+        /* .resume-editor-div input, .resume-editor-div select { */
+        font-size: 12px;
+        /* padding: 20px 5px 3px 1px; */
+        display: block;
+        width: 100%;
+        /* border: none;
+        border-bottom: none; */
+    }
+    .page-resume-editor {
+        margin-top: 20px;
+    }
+    .page-resume-editor .resume-bottom a, .page-resume-editor .resume-bottom p {
+        font-size: 12px;
+        margin-right: 5px;
+        color: #696565;
+    }
+    .contact-form {
+        padding: 10px;
+    }
+    body {
+        margin: 0;
+        font-family: "Nunito", sans-serif;
+        font-size: 0.9rem;
+        font-weight: 400;
+        /* line-height: 1.6; */
+        color: #66696d;
+        text-align: left;
+        background-color: #f8fafc;
+      }
+      .page-start .start-info .start-description {
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 500px) {
+    .page-start .start-info {
+        background: url(../../images/bg/Bubble-bottom-mobile.png) !important;
+        background-repeat: round !important;
+        height: 700px !important;
+        padding-left: 0px !important;
+        margin-top: 20px !important;
+        padding-top: 45px !important;
+    }
+}
+@media (max-width: 460px) {
+    .page-start .start-info {
+        background: url(../../images/bg/Bubble-bottom-mobile.png) !important;
+        background-repeat: round !important;
+        height: 680px !important;
+        padding-left: 0px !important;
+        margin-top: 20px !important;
+        padding-top: 45px !important;
+    }
+	.alert_yak_finder{
+		margin-top:auto !important;
+	}
+}
+@media (max-width: 450px) {
+    .page-start .start-info {
+        background: url(../../images/bg/Bubble-bottom-mobile.png) !important;
+        background-repeat: round !important;
+        height: 880px !important;
+        padding-left: 0px !important;
+        margin-top: 20px !important;
+        padding-top: 45px !important;
+    }
+    /* .workdate{
+        padding-right: 0px;
+        padding-left: 50px;
+        margin-top: 8px !important;
+    } */
+}
+@media (max-width: 420px) {
+    /* .workdate{
+        padding-right: 0px;
+        padding-left: 40px !important;
+        margin-top: 8px;
+    } */
+}
+@media (max-width: 360px) {
+    /* .workdate{
+        padding-right: 0px;
+        padding-left: 20px;
+        margin-top: 8px !important;
+    } */
+}
+@media (max-width: 540px) {
+    .tooltip-inner {
+        max-width: 320px;
+        margin-left: 50px;
+        padding: 3px 8px;
+        color: #000;
+        text-align: center;
+        background-color: #ebb30b;
+        border-radius: .25rem;
+        opacity: 1.0;
+        filter: alpha(opacity=100);
+        /* font-size: 14px; */
+    }
+    /* .workdate{
+        padding-right: 0px;
+        padding-left: 60px;
+        margin-top: 8px !important;
+    } */
+}
+
+@media (max-width: 2000px) {
+    .page-start .yak {
+        position: absolute;
+        width: 350px;
+        bottom: 48px;
+        right: 25%;
+        left: 60%;
+        margin-left: -150px;
+    }
+    .textarea{
+        width: 195px;
+    }
+
+}
+@media (max-width: 1200px) {
+    .page-start .yak {
+        position: absolute;
+        width: 350px;
+        bottom: 48px;
+        right: 25%;
+        left: 55%;
+        margin-left: -150px;
+    }
+    .textarea{
+        width: 172px;
+    }
+	.experience_finder_sidebar{
+		display:none;
+	}
+}
+@media (max-width: 992px) {
+    .page-start .yak {
+        position: absolute;
+        width: 350px;
+        bottom: 36px;
+        right: 25%;
+        left: 45%;
+        margin-left: -150px;
+    }
+    .textarea{
+        width: 120px;
+    }
+    /* .workdate{
+        padding-right: 0px;
+        padding-left: 39px !important;
+        margin-top: 8px !important;
+    } */
+}
+@media (max-width: 767px) {
+    .page-start .yak {
+        position: absolute;
+        width: 350px;
+        bottom: 36px;
+        right: 25%;
+        left: 37%;
+        margin-left: -150px;
+    }
+    .textarea{
+        width: 420px;
+        height: 45px;
+    }
+    /* .workdate{
+        padding-right: 0px;
+        padding-left: 50px;
+        margin-top: 8px !important;
+    } */
+
+}
+@media (min-width: 1200px){
+    .md6sm12{
+        width: 108%;
+    }
+}
+@media (min-width: 992px){
+    .md6sm12{
+        width: 112%;
+    }
+    /* .workdate_{
+        margin-left: 0px !important;
+        padding-bottom:0px;
+        margin-bottom:0px;
+        height:50px"
+    }   */
+}
+@media (max-width: 2000px) {
+
+    /* .textarea{
+        width: 420px;
+        height: 45px;
+    } */
+    .resume-editor-div input, .resume-editor-div select {
+        font-size: 15px;
+        padding: 19px 5px 7px 10px;
+        display: block;
+        width: 100% !important;
+        /* border: none;
+        border-bottom: none;
+        color: #66696d;; */
+    }
+    .textarea {
+        font-size: 15px;
+        padding: 20px 5px 7px 19px;
+        display: block;
+        width: 100% !important;
+        /* border: none;
+        border-bottom: none;
+        color: #66696d;; */
+    }
+
+    /* .workdate{
+        margin-top: 8px !important;
+        padding-right:0px;
+        padding-left: 50px;
+        font-size:16px;
+        padding-bottom:0px;
+        margin-bottom:0px;
+        height:50px
+    }
+    .workdate_{
+        margin-left: 0px;
+        padding-bottom:0px;
+        margin-bottom:0px;
+        height:50px"
+    }     */
+
+}
+
+@media (max-width: 400px) {
+
+    .page-resume-editor .sidebar ul li {
+        font-size: 10px;
+        margin-bottom: 5px;
+        display: inline;
+    }
+    .page-resume-editor .sidebar1 ul li {
+        font-size: 10px;
+        margin-bottom: 5px;
+        display: inline;
+    }
+}
+@media(min-width: 992px) {
+    .workdate{
+        margin-top: 8px !important;
+        padding-right:0px;
+        padding-left: 20px !important;
+        font-size:16px;
+        padding-bottom:0px;
+        margin-bottom:0px;
+        text-align: left;
+    }
+}
+@media(max-width: 992px) {
+    .workdate{
+        margin-top: 8px !important;
+        padding-right:0px;
+        padding-left: 26px;
+        font-size:16px;
+        padding-bottom:0px;
+        margin-bottom:0px;
+        height:50px
+    }
+}
+@media(max-width: 768px) {
+    .workdate{
+        margin-top: 8px !important;
+        padding-right:0px;
+        padding-left: 40px;
+        font-size:16px;
+        padding-bottom:0px;
+        margin-bottom:0px;
+        height:50px
+    }
+}
+@media(max-width: 450px) {
+    .workdate{
+        margin-top: 8px !important;
+        padding-right:0px;
+        padding-left: 26px;
+        font-size:16px;
+        padding-bottom:0px;
+        margin-bottom:0px;
+        height:50px
+    }
+}
+@media(max-width: 450px) {
+    .workdate{
+        margin-top: 8px !important;
+        padding-right:0px;
+        padding-left: 26px;
+        font-size:16px;
+        padding-bottom:0px;
+        margin-bottom:0px;
+        height:50px
+    }
+}
+@media(max-width: 405px) {
+    .workdate{
+        margin-top: 6px !important;
+        padding-right:0px;
+        padding-left: 26px;
+        font-size:16px;
+        padding-bottom:0px;
+        margin-bottom:0px;
+        height:50px;
+        font-size: 14px;
+    }
+    .unselected{
+        padding-left: 0px !important;
+    }
+}
+@media(max-width: 355px) {
+    .workdate{
+        margin-top: 0px !important;
+        padding-right:0px;
+        padding-left: 26px;
+        font-size:16px;
+        padding-bottom:0px;
+        margin-bottom:0px;
+        height:50px;
+        font-size: 14px;
+    }
+    .unselected{
+        padding-left: 0px !important;
+    }
+}
+
+
+
+
+
+
+
